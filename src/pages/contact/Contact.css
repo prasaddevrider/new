@@ -1,0 +1,48 @@
+.contact-container{
+    display: grid;
+    place-items: ;
+}
+.contact-wrapper{
+    
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.contact-wrapper a{
+    background: var(--lightblue-color);
+    font-size: 3rem;
+    border: 1px solid transparent;
+    transition:var(--transition);
+    padding: 2rem;
+    border-radius: 1.5rem;
+
+}
+.contact-wrapper a:hover{
+    background: transparent;
+    border-color: var(--light-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+.contact-wrapper{
+    gap: 1.5rem;
+}
+.contact-wrapper a{
+   
+    font-size:1.2rem;
+    
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+}

@@ -1,0 +1,57 @@
+
+  .image-contant{
+   position: absolute;
+    object-fit: cover;
+    height:fit-content;
+    margin-top: -13rem;
+   
+  }
+  .galary-container{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-bottom: -3rem;
+  }
+ .galary-container article{
+  border: 1rem solid transparent;
+  transition: var(--transition);
+
+ }
+ .galary-container article:hover{
+  border-color: var(--lightblue-color);
+ }
+.galary-container img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+ /* MEDIA QUARY */
+ @media screen and (max-width:1024px){
+  .galary-container{
+    margin-top: 5rem;
+    grid-template-columns:1fr 1fr;
+    gap: 2rem;
+  }
+  
+  
+
+
+
+ }
+
+ @media screen and (max-width:600px){
+  .galary-container{
+    margin-top: -2rem;
+    grid-template-columns:1fr;
+    gap: 1rem;
+  }
+
+
+
+  
+ }

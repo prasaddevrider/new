@@ -1,0 +1,19 @@
+.signup-card{
+    width: 50%;
+    height: 40vh;
+    background: var(--lightblue-color);
+}
+.container-si{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display:flex;
+    background: var(--lightblue-color);
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    margin-top: 3rem;
+}
+.form-tap{
+    background: transparent;
+}

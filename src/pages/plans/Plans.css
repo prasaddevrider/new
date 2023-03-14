@@ -1,0 +1,61 @@
+.plans-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.plan h3{
+    margin-bottom: 0.8rem;
+}
+.plan h4{
+    margin-top: 0.8rem;
+}
+.plan small{
+    margin-bottom: 2rem;
+}
+.plan h1{
+    color: rgb(129, 129, 237);
+}
+.plan p.disabled{
+    color:rgb(70, 68, 67);
+}
+ p{
+    color: var(--light-color);
+    text-transform: capitalize;
+}
+.memo{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    .plans-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+.memo{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+@media screen and (max-width:600px){
+.plans-container{
+    grid-template-columns: 1fr;
+}
+.plan{
+    width: 90%;
+    margin-inline: auto;
+}
+.memo{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+}
